@@ -1,0 +1,11 @@
+version: '2'
+services:
+  thelounge:
+    image: ghcr.io/thelounge/thelounge:4.4.3
+    container_name: thelounge
+    ports:
+      - "9000:9000"
+    restart: always
+    volumes:
+      - ./data:/var/opt/thelounge
+
