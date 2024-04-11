@@ -1,1 +1,1 @@
-This creates an instance [thelounge](https://thelounge.chat/) and stores the configuration in `./data` through a bind mount. This does not store chat logs persistently. Create a reverse proxy on a web server using port 9000.
+This creates an instance of [thelounge](https://thelounge.chat/) and stores the configuration in `./data` through a bind mount. This does not store chat logs persistently. Create a reverse proxy on a web server using port 9000.
